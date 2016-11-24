@@ -13,19 +13,15 @@ export class Carousel extends Component{
 
         <div className="carousel-inner" role="listbox">
           <div className="item active">
-            egfertert
+            <div className="div-imagen-carousel">
+              <img className="imagen-carousel" src="./assets/images/niño_libertad.jpg"></img>
+            </div>
           </div>
 
           <div className="item">
-            ertertert
-          </div>
-
-          <div className="item">
-            ertertert
-          </div>
-
-          <div className="item">
-            erterte
+            <div className="div-imagen-carousel">
+              <img className="imagen-carousel" src="./assets/images/niño_libertad.jpg"></img>
+            </div>
           </div>
         </div>
 

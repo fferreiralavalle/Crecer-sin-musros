@@ -17,10 +17,11 @@ export class Principal extends Component{
       		<div>
             <Header/>
             <div className="cuerpo">
-              {/*<Carousel/>*/}
+              <Carousel/>
 
-              <div className="fb-page" data-href="https://www.facebook.com/CrecerSinMuros/" data-tabs="timeline, messages, adapt_container_width" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
-
+              <div className="paginaFace">
+                <div className="fb-page" data-href="https://www.facebook.com/CrecerSinMuros/" data-tabs="timeline, messages, adapt_container_width" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+              </div>
               {/*<div
                 className="fb-like"
                 data-share="true"
