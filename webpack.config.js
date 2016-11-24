@@ -3,8 +3,9 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: [
-    './src/index.jsx'
-  ],
+  './src/index.jsx',
+  'webpack/hot/dev-server'
+],
   module:{
     loaders:[
       {

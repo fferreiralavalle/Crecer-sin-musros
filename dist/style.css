@@ -42,15 +42,34 @@ background: -ms-linear-gradient(left, rgba(167,212,188,1) 0%, rgba(108,204,138,1
 background: linear-gradient(to right, rgba(167,212,188,1) 0%, rgba(108,204,138,1) 25%, rgba(74,204,143,1) 85%, rgba(80,217,123,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7d4bc', endColorstr='#50d97b', GradientType=1 );*/
 }
+#quienesSomos:after{
+  content: '¿Que es crecer sin muros?';
+}
+#headerHome:after{
+  content: ' Inicio';
+}
 .navbar-text{
-  font-family: monospace;
+  font-family: serif;
 }
 .btn.btn-default.navbar-btn{
   font-family: serif;
   margin-right: 2%;
   background: rgba(200,200,200,0.6);
+
+}
+.cuerpo{
+  margin-top: 70px;
+}
+@media screen and (max-width: 780px){
+  .cuerpo{
+    margin-top: 130px;
+  }
+  #quienesSomos:after{
+    content: '¿Qué es CSM?';
+  }
+  #headerHome:after{
+    content: '';
+  }
 }
 
-#myCarousel{
-  margin-top: 5%;
 }

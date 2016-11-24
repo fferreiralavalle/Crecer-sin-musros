@@ -12,39 +12,28 @@ export class Principal extends Component{
         this.state = {};
        	// searchPokemonById = searchPokemonById.bind(this);
     }
-
-
-
     render(){
       	return(
       		<div>
             <Header/>
-            <Carousel/>
+            <div className="cuerpo">
+              {/*<Carousel/>*/}
 
-            <div
-              className="fb-like"
-              data-share="true"
-              data-width="450"
-              data-show-faces="true">
-            </div>
-            <div
-              className="fb-comments"
-              data-href="https://hwebuitest.firebaseapp.com/"
-              data-numposts="5">
-            </div>
-            <div>
-              <iframe
-                src="https://www.facebook.com/CrecerSinMuros/"
-                width="500"
-                height="427"
-                style={{border:"none",overflow:"hidden"}}
-                scrolling="no"
-                frameBorder="0"
-                allowTransparency="true">
-              </iframe>
-            </div>
+              <div className="fb-page" data-href="https://www.facebook.com/CrecerSinMuros/" data-tabs="timeline, messages, adapt_container_width" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
 
-            hgcvjmy
+              {/*<div
+                className="fb-like"
+                data-share="true"
+                data-width="450"
+                data-show-faces="true">
+              </div>*/}
+              {/*<div
+                className="fb-comments"
+                data-href="https://hwebuitest.firebaseapp.com/"
+                data-numposts="5">
+              </div>*/}
+
+            </div>
           </div>
       	);
     }
