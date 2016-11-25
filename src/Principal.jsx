@@ -14,14 +14,15 @@ export class Principal extends Component{
     }
     render(){
       	return(
-      		<div>
+      		<div id="topest">
             <Header/>
             <div className="cuerpo">
               <Carousel/>
-
-              <div className="paginaFace">
-                <div className="fb-page" data-href="https://www.facebook.com/CrecerSinMuros/" data-tabs="timeline, messages, adapt_container_width" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+              <a href="#takeMeThere">APRETAME GIL</a>
+              <div id="facebook-section" className="paginaFace">
+                <div className="fb-page" data-href="https://www.facebook.com/CrecerSinMuros/" data-height="1300" data-tabs="timeline, messages, adapt_container_width" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
               </div>
+              <p id="takeMeThere">AQUI ESTOY</p>
               {/*<div
                 className="fb-like"
                 data-share="true"

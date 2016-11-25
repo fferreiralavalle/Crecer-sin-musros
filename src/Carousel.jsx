@@ -12,6 +12,7 @@ export class Carousel extends Component{
         </ol>
 
         <div className="carousel-inner" role="listbox">
+          <div className="carousel-placeholder active"></div>
           <div className="item active">
             <div className="div-imagen-carousel">
               <img className="imagen-carousel" src="./assets/images/niño_libertad.jpg"></img>

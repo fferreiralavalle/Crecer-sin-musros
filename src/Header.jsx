@@ -16,19 +16,26 @@ export class Header extends Component{
               </span>
             </button>
 
-            <button type="button" className="btn btn-default navbar-btn pull-right">
+            <a href="#facebook-section" className="btn btn-default navbar-btn pull-right">
               <span id="contactanos" className="span-btn"> {/*Texto en style.css */}
                 <i className="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
                 {' '}
                 <i className="fa fa-youtube-play fa-lg" aria-hidden="true"></i>
-              </span>{/*Texto en style.css */}
-            </button>
+              </span>
+            </a>
+            {/* <button type="button" className="btn btn-default navbar-btn pull-right">
+            <span id="contactanos" className="span-btn"> {/*Texto en style.css */}  {/*
+              <i className="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
+              {' '}
+              <i className="fa fa-youtube-play fa-lg" aria-hidden="true"></i>
+            </span>{/*Texto en style.css */}{/*
+            </button> */}
 
-            <button type="button" className="btn btn-default navbar-btn pull-right">
+            <a href="#topest" className="btn btn-default navbar-btn pull-right">
               <span id="headerHome" className="span-btn">
                 <i className="fa fa-home fa-lg" aria-hidden="true"></i>{/*Texto en style.css */}
               </span>
-            </button>
+            </a>
 
           </div>
           </nav>
