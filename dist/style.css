@@ -82,6 +82,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7d4bc', end
 .paginaFace{
   margin-top: 20px;
 }
+.div-texto-carousel{
+  background-color: rgba(0,0,0,0.1);
+}
+.div-texto-carousel{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+.div-texto.carousel .titulo-carousel{
+
+}
+
+.div-texto.carousel .span-carousel{
+
+}
 
 .carousel-placeholder {
   width: 100%;

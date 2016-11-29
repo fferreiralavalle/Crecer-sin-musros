@@ -18,11 +18,9 @@ export class Principal extends Component{
             <Header/>
             <div className="cuerpo">
               <Carousel/>
-              <a href="#takeMeThere">APRETAME GIL</a>
               <div id="facebook-section" className="paginaFace">
                 <div className="fb-page" data-href="https://www.facebook.com/CrecerSinMuros/" data-height="1300" data-tabs="timeline, messages, adapt_container_width" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
               </div>
-              <p id="takeMeThere">AQUI ESTOY</p>
               {/*<div
                 className="fb-like"
                 data-share="true"
